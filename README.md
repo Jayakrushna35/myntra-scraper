@@ -1,3 +1,30 @@
+## Project Structure
+
+```
+project-root/
+├── pom.xml                # Maven configuration file
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── scraper/
+│   │   │                └── TShirtScraper.java                           
+│   │   │           
+│   │   │            
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           ├── features/
+│       │           │   └── FilterTShirts.feature
+│       │           ├── steps/
+│       │           │   └── ScraperSteps.java
+│       │           └── runners/
+│       │               └── TestRunner.java
+```
+
+
 ## Setup Instructions
 
 1. **Clone the Repository**
