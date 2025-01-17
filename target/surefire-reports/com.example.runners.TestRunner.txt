@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.example.runners.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.57 s <<< FAILURE! -- in com.example.runners.TestRunner
-Scrape T-shirts on Myntra.Scrape discounted Van Heusen T-shirts -- Time elapsed: 13.34 s <<< ERROR!
-com.microsoft.playwright.PlaywrightException: 
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 43.48 s <<< FAILURE! -- in com.example.runners.TestRunner
+Scrape T-shirts on Myntra.Scrape discounted Van Heusen T-shirts -- Time elapsed: 43.24 s <<< ERROR!
+com.microsoft.playwright.TimeoutError: 
 Error {
-  message='Target closed
+  message='Timeout 30000ms exceeded.
 =========================== logs ===========================
 waiting for locator("text=T-shirts")
   locator resolved to 3 elements. Proceeding with the first one: <a data-reactid="21" href="/men-tshirts" class="des…>T-Shirts</a>
@@ -18,8 +18,8 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-  name='Error
-  stack='Error: Target closed
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
 waiting for locator("text=T-shirts")
   locator resolved to 3 elements. Proceeding with the first one: <a data-reactid="21" href="/men-tshirts" class="des…>T-Shirts</a>
@@ -32,18 +32,12 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-    at C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\chromium\crConnection.js:169:16
-    at new Promise (<anonymous>)
-    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\chromium\crConnection.js:165:12)
-    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\chromium\crExecutionContext.js:78:28)
-    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\javascript.js:61:61)
-    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\javascript.js:241:26)
-    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:790:22)
-    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:144:14)
-    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:694:20)
-    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:322:20)
+    at ProgressController.run (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\frames.js:994:23)
+    at FrameDispatcher.click (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\dispatchers\frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\dispatchers\dispatcher.js:313:46)
 }
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
 	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)
 	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)
@@ -56,10 +50,10 @@ attempting click action
 	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:576)
 	at com.microsoft.playwright.Page.click(Page.java:3741)
 	at com.example.scraper.TShirtScraper.selectCategory(TShirtScraper.java:28)
-	at com.example.steps.ScraperSteps.selectCategory(ScraperSteps.java:24)
+	at com.example.steps.ScraperSteps.selectCategory(ScraperSteps.java:35)
 	at ✽.I select "Men" -> "T-shirts"(file:///C:/Users/jayak/Documents/Gocommit%20Project/myntra-scraper/src/test/java/com/example/features/FilterTShirts.feature:5)
-Caused by: com.microsoft.playwright.impl.DriverException: Error {
-  message='Target closed
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
 =========================== logs ===========================
 waiting for locator("text=T-shirts")
   locator resolved to 3 elements. Proceeding with the first one: <a data-reactid="21" href="/men-tshirts" class="des…>T-Shirts</a>
@@ -72,8 +66,8 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-  name='Error
-  stack='Error: Target closed
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
 waiting for locator("text=T-shirts")
   locator resolved to 3 elements. Proceeding with the first one: <a data-reactid="21" href="/men-tshirts" class="des…>T-Shirts</a>
@@ -86,18 +80,12 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-    at C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\chromium\crConnection.js:169:16
-    at new Promise (<anonymous>)
-    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\chromium\crConnection.js:165:12)
-    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\chromium\crExecutionContext.js:78:28)
-    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\javascript.js:61:61)
-    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\javascript.js:241:26)
-    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:790:22)
-    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:144:14)
-    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:694:20)
-    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-145786270803552108\package\lib\server\dom.js:322:20)
+    at ProgressController.run (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\progress.js:88:26)
+    at Frame.click (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\frames.js:994:23)
+    at FrameDispatcher.click (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\dispatchers\frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (C:\Users\jayak\AppData\Local\Temp\playwright-java-6733560060292339396\package\lib\server\dispatchers\dispatcher.js:313:46)
 }
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:226)
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)
 	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)
 	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)
@@ -111,7 +99,7 @@ attempting click action
 	at com.microsoft.playwright.impl.PageImpl.click(PageImpl.java:576)
 	at com.microsoft.playwright.Page.click(Page.java:3741)
 	at com.example.scraper.TShirtScraper.selectCategory(TShirtScraper.java:28)
-	at com.example.steps.ScraperSteps.selectCategory(ScraperSteps.java:24)
+	at com.example.steps.ScraperSteps.selectCategory(ScraperSteps.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
