@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.runners.TestRunner" time="42.079" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.runners.TestRunner" time="22.529" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\bin"/>
-    <property name="sun.java.command" value="C:\Users\jayak\AppData\Local\Temp\surefire12741454069305486039\surefirebooter-20250117134729547_3.jar C:\Users\jayak\AppData\Local\Temp\surefire12741454069305486039 2025-01-17T13-47-29_445-jvmRun1 surefire-20250117134729547_1tmp surefire_0-20250117134729547_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jayak\AppData\Local\Temp\surefire8916965436930034514\surefirebooter-20250117140151501_3.jar C:\Users\jayak\AppData\Local\Temp\surefire8916965436930034514 2025-01-17T14-01-51_407-jvmRun1 surefire-20250117140151501_1tmp surefire_0-20250117140151501_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\jayak\Documents\Gocommit Project\myntra-scraper\target\test-classes;C:\Users\jayak\Documents\Gocommit Project\myntra-scraper\target\classes;C:\Users\jayak\.m2\repository\com\microsoft\playwright\playwright\1.38.0\playwright-1.38.0.jar;C:\Users\jayak\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\jayak\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jayak\.m2\repository\com\microsoft\playwright\driver\1.38.0\driver-1.38.0.jar;C:\Users\jayak\.m2\repository\com\microsoft\playwright\driver-bundle\1.38.0\driver-bundle-1.38.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\jayak\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\jayak\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\jayak\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jayak\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\jayak\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\jayak\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jayak\AppData\Local\Temp\surefire12741454069305486039\surefirebooter-20250117134729547_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jayak\AppData\Local\Temp\surefire8916965436930034514\surefirebooter-20250117140151501_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Scrape discounted Van Heusen T-shirts" classname="Scrape T-shirts on Myntra" time="41.861">
-    <error message="Error {&#10;  message=&apos;Target closed&#10;=========================== logs ===========================&#10;waiting for locator(&quot;text=T-shirts&quot;)&#10;  locator resolved to 3 elements. Proceeding with the first one: &lt;a data-reactid=&quot;21&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;element was detached from the DOM, retrying&#10;  locator resolved to 5 elements. Proceeding with the first one: &lt;a data-reactid=&quot;31&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;============================================================&#10;  name=&apos;Error&#10;  stack=&apos;Error: Target closed&#10;=========================== logs ===========================&#10;waiting for locator(&quot;text=T-shirts&quot;)&#10;  locator resolved to 3 elements. Proceeding with the first one: &lt;a data-reactid=&quot;21&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;element was detached from the DOM, retrying&#10;  locator resolved to 5 elements. Proceeding with the first one: &lt;a data-reactid=&quot;31&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;============================================================&#10;    at C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:169:16&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:165:12)&#10;    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crExecutionContext.js:78:28)&#10;    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:61:61)&#10;    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:241:26)&#10;    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:790:22)&#10;    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:144:14)&#10;    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:694:20)&#10;    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:322:20)&#10;}" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+  <testcase name="Scrape discounted Van Heusen T-shirts" classname="Scrape T-shirts on Myntra" time="22.299">
+    <error message="Error {&#10;  message=&apos;Target closed&#10;=========================== logs ===========================&#10;waiting for locator(&quot;text=T-shirts&quot;)&#10;  locator resolved to 3 elements. Proceeding with the first one: &lt;a data-reactid=&quot;21&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;element was detached from the DOM, retrying&#10;  locator resolved to 5 elements. Proceeding with the first one: &lt;a data-reactid=&quot;31&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;============================================================&#10;  name=&apos;Error&#10;  stack=&apos;Error: Target closed&#10;=========================== logs ===========================&#10;waiting for locator(&quot;text=T-shirts&quot;)&#10;  locator resolved to 3 elements. Proceeding with the first one: &lt;a data-reactid=&quot;21&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;element was detached from the DOM, retrying&#10;  locator resolved to 5 elements. Proceeding with the first one: &lt;a data-reactid=&quot;31&quot; href=&quot;/men-tshirts&quot; class=&quot;des…&gt;T-Shirts&lt;/a&gt;&#10;attempting click action&#10;  waiting for element to be visible, enabled and stable&#10;    element is not visible - waiting...&#10;============================================================&#10;    at C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:169:16&#10;    at new Promise (&lt;anonymous&gt;)&#10;    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:165:12)&#10;    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crExecutionContext.js:78:28)&#10;    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:61:61)&#10;    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:241:26)&#10;    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:790:22)&#10;    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:144:14)&#10;    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:694:20)&#10;    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:322:20)&#10;}" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
 Error {
   message='Target closed
 =========================== logs ===========================
@@ -88,16 +88,16 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-    at C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:169:16
+    at C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:169:16
     at new Promise (<anonymous>)
-    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:165:12)
-    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crExecutionContext.js:78:28)
-    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:61:61)
-    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:241:26)
-    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:790:22)
-    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:144:14)
-    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:694:20)
-    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:322:20)
+    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:61:61)
+    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:241:26)
+    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:790:22)
+    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:144:14)
+    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:694:20)
+    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:322:20)
 }
 	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
@@ -142,16 +142,16 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-    at C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:169:16
+    at C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:169:16
     at new Promise (<anonymous>)
-    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:165:12)
-    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crExecutionContext.js:78:28)
-    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:61:61)
-    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:241:26)
-    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:790:22)
-    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:144:14)
-    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:694:20)
-    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:322:20)
+    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:61:61)
+    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:241:26)
+    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:790:22)
+    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:144:14)
+    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:694:20)
+    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:322:20)
 }
 	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:226)
 	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
@@ -251,16 +251,16 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-    at C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:169:16
+    at C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:169:16
     at new Promise (<anonymous>)
-    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:165:12)
-    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crExecutionContext.js:78:28)
-    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:61:61)
-    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:241:26)
-    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:790:22)
-    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:144:14)
-    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:694:20)
-    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:322:20)
+    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:61:61)
+    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:241:26)
+    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:790:22)
+    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:144:14)
+    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:694:20)
+    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:322:20)
 }
 	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
@@ -305,16 +305,16 @@ attempting click action
   waiting for element to be visible, enabled and stable
     element is not visible - waiting...
 ============================================================
-    at C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:169:16
+    at C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:169:16
     at new Promise (<anonymous>)
-    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crConnection.js:165:12)
-    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\chromium\crExecutionContext.js:78:28)
-    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:61:61)
-    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\javascript.js:241:26)
-    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:790:22)
-    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:144:14)
-    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:694:20)
-    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-6222477199278504387\package\lib\server\dom.js:322:20)
+    at CRSession.send (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crConnection.js:165:12)
+    at CRExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\chromium\crExecutionContext.js:78:28)
+    at FrameExecutionContext.evaluateWithArguments (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:61:61)
+    at evaluateExpression (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\javascript.js:241:26)
+    at async InjectedScriptPollHandler.finish (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:790:22)
+    at async ElementHandle.evaluatePoll (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:144:14)
+    at async ElementHandle._waitForElementStates (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:694:20)
+    at async ElementHandle._performPointerAction (C:\Users\jayak\AppData\Local\Temp\playwright-java-631033018883427141\package\lib\server\dom.js:322:20)
 }
 	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:226)
 	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
