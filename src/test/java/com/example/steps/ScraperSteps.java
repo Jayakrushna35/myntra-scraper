@@ -3,6 +3,11 @@
  * It includes methods to navigate to a URL, select a category and subcategory,
  * and filter by brand.
  */
+/**
+ * This class defines the steps for the T-Shirt scraper using Cucumber.
+ * It includes methods to navigate to a URL, select a category and subcategory,
+ * and filter by brand. This is newone
+ */
 package com.example.steps;
 
 import com.example.scraper.TShirtScraper;
@@ -16,6 +21,7 @@ public class ScraperSteps {
 
     /**
      * Initializes the scraper and navigates to the specified URL.
+     * 
      * @param url the URL to navigate to
      */
     @Given("I navigate to {string}")
@@ -27,7 +33,8 @@ public class ScraperSteps {
 
     /**
      * Selects the specified category and subcategory.
-     * @param category the category to select
+     * 
+     * @param category    the category to select
      * @param subcategory the subcategory to select
      */
     @When("I select {string} -> {string}")
@@ -37,6 +44,7 @@ public class ScraperSteps {
 
     /**
      * Filters the results by the specified brand.
+     * 
      * @param brand the brand to filter by
      */
     @And("I filter by brand {string}")
